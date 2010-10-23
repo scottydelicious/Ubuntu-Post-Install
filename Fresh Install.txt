@@ -8,7 +8,9 @@ sudo add-apt-repository ppa:ubuntu-on-rails/ppa && \
 sudo add-apt-repository ppa:yorba/ppa && \
 sudo add-apt-repository ppa:tualatrix/ppa && \
 sudo add-apt-repository ppa:and471/kazam-daily-builds \
-sudo aptitude update && sudo aptitude safe-upgrade
+sudo apt-get install aptitude && \
+sudo aptitude update && \
+sudo aptitude safe-upgrade
 
 ## Favorite packages
 sudo aptitude install ubuntu-tweak vim vim-addon-manager \
@@ -20,11 +22,8 @@ virtualbox-ose virtualbox-guest-additions conky-all \
 gimp gimp-plugin-registry gimp-resynthesizer inkscape \
 pgadmin3 sqliteman kazam lastfm pithos cryptkeeper deja-dup wine \
 libnotify-bin ruby-full rubygems rubybook libsqlite3-ruby \
-libnotify-ruby sqlite3 libsqlite3-dev gstreamer0.10-ffmpeg \
-gstreamer0.10-ffmpeg gstreamer0.10-plugins-bad \
-gstreamer0.10-plugins-ugly icedtea6-plugin \
-gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-ugly-multiverse \
-libavcodec-extra-52 libmp4v2-0 ttf-mscorefonts-installer unrar
+sqlite3 libsqlite3-dev build-essential guake ubuntu-restricted-extras \
+git-all gitg dockbarx dockbarx-themes-extra
 
 ## Server Setup
 sudo aptitude install apache2 apache2-dev apache2-mpm-prefork \
