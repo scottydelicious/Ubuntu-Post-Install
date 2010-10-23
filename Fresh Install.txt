@@ -7,7 +7,8 @@ sudo add-apt-repository ppa:kevin-mehall/pithos-daily && \
 sudo add-apt-repository ppa:ubuntu-on-rails/ppa && \
 sudo add-apt-repository ppa:yorba/ppa && \
 sudo add-apt-repository ppa:tualatrix/ppa && \
-sudo add-apt-repository ppa:and471/kazam-daily-builds \
+sudo add-apt-repository ppa:and471/kazam-daily-builds && \
+sudo add-apt-repository ppa:leolik/leolik && \
 sudo apt-get install aptitude && \
 sudo aptitude update && \
 sudo aptitude safe-upgrade
@@ -23,7 +24,8 @@ gimp gimp-plugin-registry gimp-resynthesizer inkscape \
 pgadmin3 sqliteman kazam lastfm pithos cryptkeeper deja-dup wine \
 libnotify-bin ruby-full rubygems rubybook libsqlite3-ruby \
 sqlite3 libsqlite3-dev build-essential guake ubuntu-restricted-extras \
-git-all gitg dockbarx dockbarx-themes-extra
+git-all gitg dockbarx dockbarx-themes-extra libxml2-dev libxslt1-dev \
+compizconfig-settings-manager compiz-fusion-plugins-extra
 
 ## Server Setup
 sudo aptitude install apache2 apache2-dev apache2-mpm-prefork \
