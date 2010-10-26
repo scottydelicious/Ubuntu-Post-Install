@@ -9,12 +9,13 @@ sudo add-apt-repository ppa:yorba/ppa && \
 sudo add-apt-repository ppa:tualatrix/ppa && \
 sudo add-apt-repository ppa:and471/kazam-daily-builds && \
 sudo add-apt-repository ppa:leolik/leolik && \
+sudo add-apt-repository ppa:javlp/bluetile-ppa && \
 sudo apt-get install aptitude && \
 sudo aptitude update && \
 sudo aptitude safe-upgrade
 
 ## Favorite packages
-sudo aptitude install ubuntu-tweak vim vim-addon-manager \
+sudo aptitude install ubuntu-tweak bluetile vim vim-addon-manager \
 vim-gnome vim-gtk vim-rails vim-ruby vim-syntax-gtk \
 gedit-plugins gedit-gmate gnome-do gnome-do-plugins \
 chromium-browser chromium-browser-inspector chromium-codecs-ffmpeg \
